@@ -1,0 +1,15 @@
+.benvenuto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* vh è percentuale dello schermo  */
+    height: 90vh;
+    background-color: lightblue;
+}
+
+.bio {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}

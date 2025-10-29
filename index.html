@@ -3,13 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome Cognome</title>
-
+    <title>Owen Reyes</title>
+    <!-- Link a bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Federico</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/stage.html">Stage</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Sezione di benvenuto -->
+    <section class="benvenuto">
+        <div>
+            <h2>Benvenuto nel mio sito</h2>
+            <p>Owen Reyes</p>
+        </div>
+    </section>
+
+    <!-- Sezione Bio  -->
+    <section class="container-fluid">
+        <!-- faccio la riga  -->
+        <div class="row">
+            <!-- faccio due colonne  -->
+            <div class="col">    
+            </div>
+            <div class="col bio">
+                <p>Qui ci scrivo le mie 4 righe di Bio cibo bio bio bio bio bio</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- sezione passioni -->
+     <section class="container-fluid passioni">
+        <div class="row">
+            <h3>Le mie passioni</h3>
+        </div>
+        <div class="row justify-content-around">
+        <div class="card" style="width: 18rem;">
+        <img src="./img/scatto.fisso.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">Ciclismo</p>
+    </div>
+    </div>
+        <div class="card" style="width: 18rem;">
+        <img src="./img/gettyimages-1181593460.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">Cucinare</p>
+    </div>
+    </div>
+        <div class="card" style="width: 18rem;">
+        <img src="./img/fat.dog.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">Cani ciccioni</p>
+    </div>
+
+
+     </section>
+
+    <!-- script di bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 </html>
