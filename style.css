@@ -25,3 +25,10 @@
 .btn {
     width: auto;
 }
+.logo {
+    width: 50%;
+}
+footer {
+    background-color: lightskyblue;
+    padding: 5vh;
+}
